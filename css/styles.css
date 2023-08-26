@@ -297,7 +297,7 @@ padding: 0%;
   }
   
   .cards-portafolio {width: 370px;
-    height: 404px;
+    
     flex-shrink: 0;
     border: 1px solid #EEE;
     background: #FFF;
@@ -312,26 +312,69 @@ padding: 0%;
   cursor: pointer;
   }
 
-.titles-portafolio{
-    font-size: 18px;
-    line-height: 2;
+  .par-segundo {
+    font-size: 16px;
+    color: var(--primary-text-color);
+    text-align: left;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 9px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+  }
+
+    
+    
+    .card-segunda {
+      font-size: 18px;
+    
     font-weight: var(--font-weight-titles);
     text-align: left;
     padding-right: 24px;
     padding-left: 24px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+    line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+    }
+    
+
+  .img-portafolio{
+    display: block;
+    
+  }
+
+.titles-portafolio{
+    font-size: 18px;
+    
+    font-weight: var(--font-weight-titles);
+    text-align: left;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 20px;
     margin-bottom: 0px;
     margin-top: 5px;
+    
+    line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+
 }
 .paragraphs-portafolio{
     font-size: 16px;
-    line-height: 1.87;
+    
   color: var(--primary-text-color);
     text-align: left;
     padding-right: 24px;
     padding-left: 24px;
+    padding-bottom: 20px;
     margin-top: 0px;
     margin-bottom: 0px;
-
+    line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
 }
 
 
